@@ -337,13 +337,13 @@ export default {
     }
 
     .special-block {
-      width: 275px;
-      height: 275px;
+      width: 265px;
+      height: 265px;
     }
 
     .special-details {
-      width: 275px;
-      height: 275px;
+      width: 265px;
+      height: 265px;
     }
   }
 </style>

@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav text-center text-lg-start">
                     <li class="nav-item">
-                        <router-link to="" class="link active" aria-current="page" @click="remind()">聯絡我們</router-link>
+                        <router-link to="/contact" class="link active" aria-current="page">聯絡我們</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="" class="link" @click="remind()">商品目錄</router-link>
+                        <router-link to="/products" class="link">商品目錄</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="" class="link" @click="remind()">購物車</router-link>
@@ -89,7 +89,7 @@
 
     .nav-item a {
         color: $lightGreen;
-        padding: 0 8px;
+        padding: 0 10px;
         text-decoration: none;
     }
 
@@ -103,7 +103,7 @@
     }
 
     .user-item {
-        padding: 0 8px;
+        padding: 0 10px;
     }
 
     .user-item a {
