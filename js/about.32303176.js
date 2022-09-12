@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksongbuy_shopping_project"]=self["webpackChunksongbuy_shopping_project"]||[]).push([[443],{381:function(n,s,u){u.r(s),u.d(s,{default:function(){return h}});var t=u(252);const e={class:"about"},o=(0,t._)("h1",null,"This is an about page",-1),r=[o];function a(n,s){return(0,t.wg)(),(0,t.iD)("div",e,r)}var c=u(744);const i={},p=(0,c.Z)(i,[["render",a]]);var h=p}}]);
+//# sourceMappingURL=about.32303176.js.map
