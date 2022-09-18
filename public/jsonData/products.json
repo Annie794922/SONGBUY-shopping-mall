@@ -5,23 +5,26 @@
         "price": "150",
         "category": "食物",
         "description": "青江菜有肥厚的梗部，圓弧內凹的造型像極了湯匙。秋天的青江菜營養價值特別高，具有抗發炎、抗老化的優點。",
-        "picture": "https://s3.amazonaws.com/images.ecwid.com/images/11830499/1416958774.jpg"
+        "picture": "http://img2.tbcdn.cn/tfscom/i3/TB1ekC2KFXXXXcKXXXXXXXXXXXX_!!0-item_pic.jpg",
+        "quantity": 20
     },
     {
         "id": 2,
         "name": "新鮮香菇",
-        "price": "190",
+        "price": "180",
         "category": "食物",
         "description": "香菇被認為是低熱量、高蛋白、高纖維食物，其所含醣類比米或薯類等少且不同於澱粉類，不易被消化吸收。香菇含有多種酵素，有保健食品的必要條件，例如幫助消化或有益健康。",
-        "picture": "https://s3-ap-southeast-1.amazonaws.com/zhonglingdev/resource/goods/608bd75ec7fae.jpg"
+        "picture": "https://s3-ap-southeast-1.amazonaws.com/zhonglingdev/resource/goods/608bd75ec7fae.jpg",
+        "quantity": 20
     },
     {
         "id": 3,
         "name": "枕頭",
-        "price": "2340",
+        "price": "2640",
         "category": "寢具",
         "description": "想要天天都有良好的睡眠品質，首先就要有一顆舒適的枕頭帶您進入夢鄉。",
-        "picture": "https://static.ettoday.net/images/846/d846966.jpg"
+        "picture": "https://static.ettoday.net/images/846/d846966.jpg",
+        "quantity": 20
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "price": "130",
         "category": "食物",
         "description": "有長生果、萬壽果之稱的花生，是很常見的零食食材之一，無論是花生製品還是調味花生，都相當順口好吃！",
-        "picture": "http://n.sinaimg.cn/sinacn10121/67/w1024h643/20200122/9240-innckcf0067444.jpg"
+        "picture": "http://n.sinaimg.cn/sinacn10121/67/w1024h643/20200122/9240-innckcf0067444.jpg",
+        "quantity": 20
     },
     {
         "id": 5,
@@ -37,15 +41,17 @@
         "price": "330",
         "category": "雜物",
         "description": "帽子外部採用不易髒汙的材質，除了達到良好的遮陽效果之外，也能讓您在出門的時候兼顧時尚！",
-        "picture": "https://img.muji.net/img/item/0280001004333_1260.jpg"
+        "picture": "https://img.muji.net/img/item/0280001004333_1260.jpg",
+        "quantity": 20
     },
     {
         "id": 6,
         "name": "蛋黃酥",
         "price": "70",
         "category": "食物",
-        "description": "中秋節的典型月餅之一，亮黃的外觀加上酥鬆甜鹹的口感讓人忍不住一顆皆一顆，最適合在團圓時刻與重視的人一起享用。",
-        "picture": "https://tse2.mm.bing.net/th?id=OIP.dELUeVYxUyVjuN5I3YVttAHaE7&pid=Api&P=0"
+        "description": "中秋節的典型月餅之一，亮黃的外觀加上酥鬆甜鹹的口感讓人忍不住一顆接一顆，最適合在團圓時刻與重視的人一起享用。",
+        "picture": "https://tse2.mm.bing.net/th?id=OIP.dELUeVYxUyVjuN5I3YVttAHaE7&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "price": "160",
         "category": "雜物",
         "description": "羊毛氈是一種利用特殊戳針的手工藝創作，可以運用羊毛的特性任意戳出想要的形狀，主要分為針氈和濕氈，當中以針氈較為普及。",
-        "picture": "https://cdn.kingstone.com.tw/cvlife/images/product/30500/3050000006683/3050000006683G1.JPG"
+        "picture": "https://cdn.kingstone.com.tw/cvlife/images/product/30500/3050000006683/3050000006683G1.JPG",
+        "quantity": 20
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "price": "250",
         "category": "雜物",
         "description": "下雨的時候替您遮擋雨勢，豔陽的時候替您保護肌膚，無論怎麼樣的天氣都是您出門在外的好幫手。",
-        "picture": "https://s.yimg.com/zp/images/BB1A90F17C18971B83CDCA43C7C481CE7F0DF7D2"
+        "picture": "https://s.yimg.com/zp/images/BB1A90F17C18971B83CDCA43C7C481CE7F0DF7D2",
+        "quantity": 20
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "price": "620",
         "category": "家電",
         "description": "獨家設計的檯燈讓您在讀書和辦公時不僅是照明用途，同時還能保護您的雙眼不受強光影響，呵護您重要的靈魂之窗。",
-        "picture": "https://tse4.mm.bing.net/th?id=OIP.HrFzhvUsJMVS22hy4jlBqQHaHa&pid=Api&P=0"
+        "picture": "https://tse4.mm.bing.net/th?id=OIP.HrFzhvUsJMVS22hy4jlBqQHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "price": "200",
         "category": "雜物",
         "description": "適合全年齡層的人組隊進行的運動之一，是一種需要體力和腦力的運動。除了作為日常休閒之外，網球比賽的觀眾也是為數眾多，四大滿貫賽事特別受到關注。",
-        "picture": "https://i.imgur.com/e00MeSx.jpg"
+        "picture": "https://i.imgur.com/e00MeSx.jpg",
+        "quantity": 20
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "price": "560",
         "category": "雜物",
         "description": "即使是小小的燈凳，也能協助您的背部保有良好的傾斜角度，讓您坐得舒服不受腰酸背痛所苦，同時也不佔空間易於收納。",
-        "picture": "https://tse4.mm.bing.net/th?id=OIP.kB1MHZsrPdIRhhUXJR-E4AHaHa&pid=Api&P=0"
+        "picture": "https://tse4.mm.bing.net/th?id=OIP.kB1MHZsrPdIRhhUXJR-E4AHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "price": "270",
         "category": "食物",
         "description": "蕎麥麵是用蕎麥、麵粉和水，和成麵團壓平後切製的細麵條。蕎麥中所含的食物纖維是人們常吃主食品面和米的八倍之多，具有良好的預防便秘作用，經常食用對預防大腸癌和肥胖症有益。日本人會在除夕夜過年時吃蕎麥麵條代表長壽，搬家時向鄰居也會送蕎麥麵有慶祝等意思。",
-        "picture": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_21348/20190130031722_gkn7i/jpg"
+        "picture": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_21348/20190130031722_gkn7i/jpg",
+        "quantity": 20
     },
     {
         "id": 13,
@@ -101,39 +113,44 @@
         "price": "1690",
         "category": "家電",
         "description": "每個家庭的廚房都應該要有一個電鍋，輕易煮出蓬鬆的米飯，簡單幾個步驟即可滿足全家人的三餐。",
-        "picture": "http://www.0800800876.com.tw/templates/cache/3005/images/products/photooriginal-3005-40810.jpg"
+        "picture": "http://www.0800800876.com.tw/templates/cache/3005/images/products/photooriginal-3005-40810.jpg",
+        "quantity": 20
     },
     {
         "id": 14,
         "name": "抹茶粉",
-        "price": "600",
+        "price": "240",
         "category": "食物",
         "description": "日本的主要代表物之一，其典雅風味深受不少人喜愛，可廣泛活用在各種領域，例如麵包、飲料和甜點等。",
-        "picture": "https://ct.yimg.com/xd/api/res/1.2/zxj6boNd5ignczcraT1qYQ--/YXBwaWQ9eXR3YXVjdGlvbnNlcnZpY2U7aD03MDA7cT04NTtyb3RhdGU9YXV0bzt3PTcwMA--/https://s.yimg.com/ob/image/60a34de9-5590-4a65-bcca-5f11980a97c3.jpg"
+        "picture": "https://ct.yimg.com/xd/api/res/1.2/zxj6boNd5ignczcraT1qYQ--/YXBwaWQ9eXR3YXVjdGlvbnNlcnZpY2U7aD03MDA7cT04NTtyb3RhdGU9YXV0bzt3PTcwMA--/https://s.yimg.com/ob/image/60a34de9-5590-4a65-bcca-5f11980a97c3.jpg",
+        "quantity": 20
     },
     {
         "id": 15,
         "name": "三角錐",
-        "price": "430",
+        "price": "390",
         "category": "雜物",
         "description": "發生交通事故或道路維修等情況會看到的警示工具。",
-        "picture": "https://tshop.r10s.com/d69/970/e9a1/e6dd/10a4/2708/b8b9/1107eaa7a90242ac110002.jpg"
+        "picture": "https://tshop.r10s.com/d69/970/e9a1/e6dd/10a4/2708/b8b9/1107eaa7a90242ac110002.jpg",
+        "quantity": 20
     },
     {
         "id": 16,
         "name": "跳繩",
-        "price": "350",
+        "price": "320",
         "category": "雜物",
         "description": "許多人從小就開始接觸的運動，跳繩除了能夠燃脂，還能夠磨練自身的「敏捷」和「平衡」等能力，是一種集合高訓練強度且全面的運動。",
-        "picture": "https://tse2.mm.bing.net/th?id=OIP.Z1hK5LZ9RX97LtDQOUkaJQHaE5&pid=Api&P=0"
+        "picture": "https://tse2.mm.bing.net/th?id=OIP.Z1hK5LZ9RX97LtDQOUkaJQHaE5&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 17,
         "name": "床",
-        "price": "16900",
+        "price": "18900",
         "category": "寢具",
         "description": "一張好看又能睡得舒適的床，有助於改善睡眠品質，讓您充分休息之後可以活力滿滿繼續奮鬥！",
-        "picture": "http://cdn01.pinkoi.com/product/3hJd5ye4/0/800x0.jpg"
+        "picture": "http://cdn01.pinkoi.com/product/3hJd5ye4/0/800x0.jpg",
+        "quantity": 20
     },
     {
         "id": 18,
@@ -141,23 +158,26 @@
         "price": "2580",
         "category": "寢具",
         "description": "受夠刺眼的陽光經常打斷您的注意力，或者是讓您無法好好休息了嗎？那麼這組遮光力強的窗簾就是您最好的選擇！",
-        "picture": "https://s.yimg.com/zp/MerchandiseImages/7A48915A9A-SP-6542713.jpg"
+        "picture": "https://s.yimg.com/zp/MerchandiseImages/7A48915A9A-SP-6542713.jpg",
+        "quantity": 20
     },
     {
         "id": 19,
         "name": "仙人掌",
-        "price": "260",
+        "price": "220",
         "category": "雜物",
         "description": "仙人掌有優良的保水適應力，不需要頻繁澆水照料，若您想要綠化環境但又沒太多時間可以照顧植物，那麼多肉植物的仙人掌相當適合忙碌的您。",
-        "picture": "https://tse3.mm.bing.net/th?id=OIP.d3Zhqo4bNYH5ufSa8XqtVgHaHa&pid=Api&P=0"
+        "picture": "https://tse3.mm.bing.net/th?id=OIP.d3Zhqo4bNYH5ufSa8XqtVgHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 20,
         "name": "電風扇",
-        "price": "1700",
+        "price": "1560",
         "category": "家電",
         "description": "是否覺得夏天一年比一年熱，可是又不想一直開冷氣增加電費呢？這台靜音又省電的電風扇想必可以滿足您的需求。",
-        "picture": "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h90/h95/9409328021534/000000000016258296-gallery-01-20190828185058306.jpg"
+        "picture": "https://pcm.trplus.com.tw/1000x1000/sys-master/productImages/h90/h95/9409328021534/000000000016258296-gallery-01-20190828185058306.jpg",
+        "quantity": 20
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "price": "2200",
         "category": "寢具",
         "description": "厚度適中，適合用在冷氣房或者是微涼的秋季。",
-        "picture": "https://images-cn.ssl-images-amazon.cn/images/I/71byQyIxl1L._AC_SL1000_.jpg"
+        "picture": "https://images-cn.ssl-images-amazon.cn/images/I/71byQyIxl1L._AC_SL1000_.jpg",
+        "quantity": 20
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "price": "40",
         "category": "食物",
         "description": "無論是早餐時段還是下午茶時間，分量不大但又有飽足感的麵包都能滿足您的胃，其蓬鬆又能作多層次口感的特色令人愛不釋手。",
-        "picture": "https://images.chinatimes.com/newsphoto/2016-03-07/900/20160307002263.jpg"
+        "picture": "https://images.chinatimes.com/newsphoto/2016-03-07/900/20160307002263.jpg",
+        "quantity": 20
     },
     {
         "id": 23,
@@ -181,15 +203,17 @@
         "price": "280",
         "category": "雜物",
         "description": "烘焙時刻不可或缺的好幫手，協助您迅速將蛋打發，做出美味的食物。",
-        "picture": "https://cbu01.alicdn.com/img/ibank/2016/474/243/3514342474_208837996.jpg"
+        "picture": "https://cbu01.alicdn.com/img/ibank/2016/474/243/3514342474_208837996.jpg",
+        "quantity": 20
     },
     {
         "id": 24,
         "name": "烤箱",
-        "price": "4760",
+        "price": "5760",
         "category": "家電",
         "description": "一台優秀的烤箱可以調整出最適合的烘焙溫度及風速，為您烤出最完美的成品！",
-        "picture": "https://tse1.mm.bing.net/th?id=OIP.W7j4rdz6ovu7gASezncbMAHaHa&pid=Api&P=0"
+        "picture": "https://tse1.mm.bing.net/th?id=OIP.W7j4rdz6ovu7gASezncbMAHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "price": "150",
         "category": "雜物",
         "description": "不僅在烘焙時可以準確測量材料所使用的量，日常生活中也可以用來測量咖啡或牛奶等飲品的多寡，沖泡計量簡單方便，可於微波爐中加熱使用。",
-        "picture": "http://img.muji.net/img/item/4547315129706_1260.jpg"
+        "picture": "http://img.muji.net/img/item/4547315129706_1260.jpg",
+        "quantity": 20
     },
     {
         "id": 26,
@@ -205,15 +230,17 @@
         "price": "280",
         "category": "雜物",
         "description": "用特殊材質所製成的鞋墊，不僅不容易孳生細菌、減少腳臭機會，軟墊設計還可以為您的雙腳帶來極為舒適的體驗。",
-        "picture": "https://tse1.mm.bing.net/th?id=OIP.oaY8Q4-237qJ--AiP75rqgHaHa&pid=Api&P=0"
+        "picture": "https://tse1.mm.bing.net/th?id=OIP.oaY8Q4-237qJ--AiP75rqgHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 27,
         "name": "司康",
-        "price": "120",
+        "price": "100",
         "category": "食物",
         "description": "司康又稱為英式鬆餅，介於麵包和蛋糕的口感之間的食物，質地蓬鬆、口感結實。被認為是英國下午茶文化最具代表性的甜點，最適合搭配一杯茶水食用。",
-        "picture": "http://2.bp.blogspot.com/-KCzHqjriQHM/UYe6vWX6gRI/AAAAAAAAAAY/VCtG4Af2Sb0/s1600/DSC_0890.jpg"
+        "picture": "http://2.bp.blogspot.com/-KCzHqjriQHM/UYe6vWX6gRI/AAAAAAAAAAY/VCtG4Af2Sb0/s1600/DSC_0890.jpg",
+        "quantity": 20
     },
     {
         "id": 28,
@@ -221,15 +248,17 @@
         "price": "1330",
         "category": "寢具",
         "description": "厚實的地毯既能夠吸音，也能在寒冷的冬季將您的雙腳和冰冷的地板隔開來，避免腳掌直接接觸地板受到寒意侵襲。",
-        "picture": "https://www.ikea.com.tw/dairyfarm/tw/images/005/0800572_PE767929_S5.jpg"
+        "picture": "https://www.ikea.com.tw/dairyfarm/tw/images/005/0800572_PE767929_S5.jpg",
+        "quantity": 20
     },
     {
         "id": 29,
         "name": "抹布",
-        "price": "100",
+        "price": "80",
         "category": "雜物",
         "description": "清潔家中環境的必備用品之一，髒了清洗之後即可重複使用，就算洗不乾淨丟棄也不心疼。",
-        "picture": "https://static.mymro.cn/product_images_new/800/11D/1566280935450.jpg"
+        "picture": "https://tse1.mm.bing.net/th?id=OIP.jbgQRW4dLrf17XlZwDXjwQHaHa&pid=Api&P=0",
+        "quantity": 20
     },
     {
         "id": 30,
@@ -237,6 +266,34 @@
         "price": "55",
         "category": "食物",
         "description": "人們最常食用的水果之一，富含礦物質和維生素，營養價值高，渾厚飽滿又鮮甜的果實讓人吃了心滿意足。",
-        "picture": "https://img.shoplineapp.com/media/image_clips/5e914fb7d3321f00183ca391/original.jpg?1586581431"
+        "picture": "https://img.shoplineapp.com/media/image_clips/5e914fb7d3321f00183ca391/original.jpg?1586581431",
+        "quantity": 20
+    },
+    {
+        "id": 31,
+        "name": "吹風機",
+        "price": "1270",
+        "category": "家電",
+        "description": "吹風機以電動方式加速空氣流動速度，故產生風，並同時提高空氣溫度的機械裝置。大部分的吹風機都會經過發熱線吹出熱風，加速水份蒸發，而冷風則對頭髮的傷害相對地小。",
+        "picture": "https://www.beutii.com.tw/data/image/product/ca/7e/09/ea/a4df56add88b8ef56669025.jpg?v=1581935045",
+        "quantity": 20
+    },
+    {
+        "id": 32,
+        "name": "果汁機",
+        "price": "1000",
+        "category": "家電",
+        "description": "在廚房和客廳常見的電器用品，您可以利用刀片迅速將容器中的水果打碎混合，一杯營養滿分的果汁在短短幾分鐘內可立即上桌。",
+        "picture": "https://www.etungo.com.tw/files/TC_PData/PD_Pic/81839big.jpg",
+        "quantity": 20
+    },
+    {
+        "id": 33,
+        "name": "和菓子",
+        "price": "330",
+        "category": "食物",
+        "description": "日本傳統的日式甜點，經常出現在茶會當中，職人發揮創意而雕塑出來的外觀總是吸引眾人目光。主要的原料包括糖、米、糯米、小麥粉、豆沙、寒天、水飴等，並依照不同的口味添加不同的特殊食材。",
+        "picture": "https://img.vitomag.com/d1/cb/d1cb6bcb4ada4068e4df52cd74f75aa1.jpg",
+        "quantity": 20
     }
 ]

@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <router-view/>
+  <router-view v-if="isRouterActive"></router-view>
   <Footer />
 </template>
 <script>
@@ -11,6 +11,24 @@
     components: {
       Navbar,
       Footer
+    },
+    provide() {
+      return {
+        reload: this.reload
+      }
+    },
+    data() {
+      return {
+        isRouterActive: true,
+      }
+    },
+    methods: {
+      reload() {
+        this.isRouterActive = false;
+        this.$nextTick(() => {
+          this.isRouterActive = true
+        })
+      },
     }
   }
 

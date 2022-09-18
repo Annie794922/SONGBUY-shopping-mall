@@ -14,7 +14,7 @@
                         <router-link to="/products" class="link">商品目錄</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link to="" class="link" @click="remind()">購物車</router-link>
+                        <router-link to="/cart" class="link">購物車</router-link>
                     </li>
                     <li class="nav-item d-inline-block d-lg-none">
                         <router-link to="" class="link" @click="remind()">登入/註冊</router-link>

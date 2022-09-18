@@ -5,7 +5,7 @@
         </div>
         <h4 class="name">{{ name }}</h4>
         <small class="price">NTD {{ price }}</small>
-        <button class="details" @click="remind()">詳情</button>
+        <button class="details" @click="itemDetails(id)">詳情</button>
     </div>
 </template>
 <script>
@@ -17,10 +17,22 @@
             'category': String,
             'description': String,
             'picture': String,
+            'quantity': Number,
         },
         methods: {
             remind() {
                 alert('頁面正在製作中，謝謝。Please be informed that the page is building. Thank you.');
+                return;
+            },
+            itemDetails(id) {
+                const itemInfo = {
+                    productId: this.id,
+                    category: this.category
+                };
+                this.$store.commit('selectedItem', itemInfo.productId);
+                this.$store.commit('suggestedItems', itemInfo);
+                // console.log(itemInfo);
+                this.$router.push(`/product-details/${id}`);
                 return;
             }
         }

@@ -18,7 +18,8 @@
             </a>
         </div>
         <div class="copyright">
-            Copyright © 2022 SONG BUY.
+            Copyright © 2022 SONG BUY.<br>
+            This website is created for practicing coding instead of commercial use.
         </div>
     </footer>
 </template>

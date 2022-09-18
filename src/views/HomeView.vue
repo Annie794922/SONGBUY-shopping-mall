@@ -20,7 +20,7 @@
       <div class="RWD-slogan-background d-block d-lg-none"></div>
       <div class="carousel-slogan">
         <h1>SONG BUY，將零錢轉變成您心愛的生活點滴。</h1>
-        <h2>SONG BUYで、お金によりお気に入り生活グッズを購入しよう。</h2>
+        <h2>SONG BUYで、お金によりお気に入り日常グッズを購入しよう。</h2>
         <h2>Get your beloved daily goods with money at SONG BUY.</h2>
       </div>
     </div>
@@ -51,7 +51,7 @@
           感謝您的蒞臨！<br>
           <hr>
           SONG BUY is a <strong>VIRTUAL shopping-mall website</strong> that the owner creates for practicing coding.<br>
-          Therefore, you would see a lot of daily goods you has known here.<br>
+          Therefore, you would see a lot of goods you has known here.<br>
           If you don't see the goods you think of on SONG BUY, there will be the only truth that the owner didn't think of the goods what you think.<br>
           <br>
           Please relax to look through SONG BUY.<br>
