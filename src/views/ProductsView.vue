@@ -9,7 +9,7 @@
                     <div class="content-block">
                         <CategoryButtons @selectedTab="filterGoods"></CategoryButtons>
                         <div class="products">
-                            <div class="items-container col-11">
+                            <div class="items-container col-10">
                                 <template v-for="goods in allProducts" v-if="category === '全部'">
                                     <ProductItem v-bind="goods"></ProductItem>
                                 </template>
@@ -35,7 +35,7 @@
 </template>
 <script>
     import PageContent from "../components/PageContent.vue"
-    import CategoryButtons from "../components/categoryButtons.vue"
+    import CategoryButtons from "../components/CategoryButtons.vue"
     import ProductItem from "../components/ProductItem.vue"
 
     export default {

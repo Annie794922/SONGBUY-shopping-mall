@@ -49,13 +49,14 @@
     @media screen and (max-width: 992px) {
         .cartItem-box {
             flex-wrap: wrap;
+            justify-content: space-evenly;
         }
     }
 
     .picture {
-        width: 170px;
-        height: 170px;
-        margin: 15px;
+        width: 130px;
+        height: 130px;
+        margin: 15px 25px;
     }
 
     .picture img {
@@ -83,6 +84,11 @@
     }
 
     @media screen and (max-width: 992px) {
+        .picture {
+            width: 160px;
+            height: 160px;
+        }
+
         .item-details {
             display: flex;
             align-items: center;

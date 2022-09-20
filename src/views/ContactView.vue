@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="contact-block col-8">
+            <div class="contact-block col-9">
                 <div class="block-title">
                     <h1>聯絡我們｜CONTACT</h1>
                 </div>
@@ -63,7 +63,7 @@
     }
 
     .contact-method {
-        padding: 15px 0 15px 35px;
+        padding: 15px 0 15px 100px;
         margin: 0 auto;
     }
 

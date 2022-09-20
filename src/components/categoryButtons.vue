@@ -38,8 +38,7 @@
 
     .category {
         padding: 20px 0; 
-        margin-left: 45px;
-        margin-right: 15px;
+        margin-left: 80px;
     }
 
     .category .item {

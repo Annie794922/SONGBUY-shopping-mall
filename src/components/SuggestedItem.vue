@@ -54,8 +54,15 @@
 
     @media screen and (max-width: 768px) {
         .suggest-box {
-            width: 170px;
-            height: 170px;
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .suggest-box {
+            width: 160px;
+            height: 160px;
         }
     }
 </style>

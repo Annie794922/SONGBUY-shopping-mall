@@ -8,6 +8,8 @@ export default createStore({
     selectedGood: {},
     suggestedGoods: [],
     cartList: [],
+    newOrderInfo: {}, // 最新成立的訂單
+    webAllOrders: [], // 全站累計總訂單資料
   },
   getters: {
     currentAmountTotal(state) {
@@ -127,6 +129,21 @@ export default createStore({
     removeItem(state, data) {
       const deleteItemIndex = state.cartList.indexOf(data);
       state.cartList.splice(deleteItemIndex, 1);
+      return;
+    },
+    createOrder(state, data) {
+      state.webAllOrders.push(data);
+
+      let newOrderNo = 0;
+      for (let i=0; i<state.webAllOrders.length; i++) {
+        data.orderNo = '00000' + (newOrderNo += 1);
+      }
+      state.newOrderInfo = data;
+      state.cartList = [];
+      // console.log('newOrderInfo: ');
+      // console.log(state.newOrderInfo);
+      // console.log('webAllOrders: ');
+      // console.log(state.webAllOrders);
       return;
     }
   },

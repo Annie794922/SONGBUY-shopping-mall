@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="page-block col-8">
+            <div class="page-block col-9">
                 <button class="back-button" @click="backToProductsList()">← BACK</button>
                 <template v-for="item in selectedGood">
                     <div class="item-info">
@@ -140,7 +140,7 @@
     }
 
     .amount-title {
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 20px;
     }
 
@@ -187,6 +187,14 @@
         .item-picture {
             width: 250px;
             height: 250px;
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .item-picture {
+            width: 200px;
+            height: 200px;
             margin: 0;
         }
     }

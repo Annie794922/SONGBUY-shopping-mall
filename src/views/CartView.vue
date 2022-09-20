@@ -17,10 +17,7 @@
                     </div>
                 </template>
                 <template v-slot:content v-if="this.$store.state.cartList.length > 0">
-                    <div class="cart-info col-10">
-                        <h2>目前共有 {{ currentAmount }} 項商品</h2>
-                        <h2>總金額為 {{ currentTotal }} 元整</h2>
-                    </div>
+                    <CartInfo></CartInfo>
                     <!-- 不可在有v-slot的template上使用v-for -->
                     <template v-for="items in cartGoods">
                         <div class="cart-details">
@@ -38,7 +35,7 @@
                             </CartItem>
                         </div>
                     </template>
-                    <button class="order-button" @click="remind()">送出訂單</button>
+                    <button class="order-button" @click="check()">送出訂單</button>
                 </template>
             </PageContent>
         </div>    
@@ -46,11 +43,13 @@
 </template>
 <script>
     import PageContent from "../components/PageContent.vue";
+    import CartInfo from "../components/CartInfo.vue";
     import CartItem from "../components/CartItem.vue";
 
     export default {
         components: {
             PageContent,
+            CartInfo,
             CartItem
         },
         data() {
@@ -75,19 +74,17 @@
                 this.$store.commit('removeItem', product);
                 return;
             },
-            remind() {
-                alert('頁面正在製作中，謝謝。Please be informed that the page is building. Thank you.');
+            check() {
+                const newOrder = {
+                    productsAmount: this.$store.getters.currentAmountTotal,
+                    productsTotal: this.$store.getters.currentPriceTotal,
+                    productsList: this.cartGoods
+                };
+                this.$store.commit('createOrder', newOrder);
+                this.$router.push('/order-completed');
                 return;
             }
         },
-        computed: {
-            currentAmount() {
-                return this.$store.getters.currentAmountTotal;
-            },
-            currentTotal() {
-                return this.$store.getters.currentPriceTotal;
-            }
-        }
     }
 </script>
 <style scoped lang="scss">
@@ -126,25 +123,6 @@
     .continue-button:hover {
         color: $normalGreen;
         transition: 0.5s;
-    }
-
-    .cart-info {
-        text-align: center;
-        margin: 30px auto;
-        padding: 15px 0;
-        color: $darkPink;
-        border: solid 1px $darkPink;
-    }
-
-    .cart-info h2 {
-        font-size: 26px;
-        margin: 5px 0;
-    }
-
-    @media screen and (max-width: 768px) {
-        .cart-info h2 {
-            font-size: 21px;
-        }
     }
 
     .cart-details {

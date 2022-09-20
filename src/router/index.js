@@ -4,6 +4,7 @@ import ContactView from '../views/ContactView.vue'
 import ProductsView from '../views/ProductsView.vue'
 import ProductDetailsView from '../views/ProductDetailsView.vue'
 import CartView from '../views/CartView.vue'
+import OrderCompletedView from '../views/OrderCompletedView.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: '/cart',
     name: 'cart',
     component: CartView
+  },
+  {
+    path: '/order-completed',
+    name: 'OrderCompleted',
+    component: OrderCompletedView
   },
 ]
 

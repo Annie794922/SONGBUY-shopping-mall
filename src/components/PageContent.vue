@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="page-block col-8">
+            <div class="page-block col-9">
                 <div class="page-title">
                     <slot name="title"></slot>
                 </div>
