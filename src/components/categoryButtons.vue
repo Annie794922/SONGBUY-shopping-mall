@@ -1,7 +1,7 @@
 <template>
     <!-- 網頁版分類區塊 -->
     <ul class="category col-2 d-none d-lg-block">
-        <li class="item" v-for="(item, index) in categoryTabs" @click="selectedCategory(index)">{{ item }}</li>
+        <li class="item" :class="{'selected-tab': item === latestTab}" v-for="(item, index) in categoryTabs" @click="selectedCategory(index)">{{ item }}</li>
     </ul>
     <!-- RWD版分類區塊 -->
     <div class="dropdown d-block d-lg-none">
@@ -20,7 +20,7 @@
         data() {
             return {
                 categoryTabs: productsCategory,
-                latestTab: '全部',
+                latestTab: '全部'
             }
         },
         methods: {
@@ -56,6 +56,11 @@
         text-decoration: underline;
         text-underline-offset: 5px;
         cursor: pointer;
+    }
+
+    .selected-tab {
+        text-decoration: underline;
+        text-underline-offset: 5px;
     }
 
     .dropdown {

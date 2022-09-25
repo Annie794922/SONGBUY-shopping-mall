@@ -5,6 +5,7 @@ import allProducts from "../../public/jsonData/products.json"
 export default createStore({
   state: {
     allProducts: allProducts,
+    clickedNavButton: 1,
     selectedGood: {},
     suggestedGoods: [],
     cartList: [],
@@ -28,6 +29,10 @@ export default createStore({
     }
   },
   mutations: {
+    navbarButtonNo(state, data) {
+      state.clickedNavButton = data;
+      return;
+    },
     selectedItem(state, data) {
       const productId = data;
       const singleItem = state.allProducts.filter(function(item) {

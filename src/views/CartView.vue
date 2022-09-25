@@ -156,6 +156,12 @@
         transition: 0.3s;
     }
 
+    @media screen and (max-width: 576px) {
+        .delete-button {
+            font-size: 20px;
+        }
+    }
+
     .order-button {
         display: block;
         margin: 40px auto;

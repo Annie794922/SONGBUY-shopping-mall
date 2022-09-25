@@ -114,4 +114,18 @@
             margin: 10px 100px;
         }
     }
+
+    @media screen and (max-width: 576px) {
+        .item-details {
+            font-size: 18px;
+        }
+
+        .item-details th {
+            width: 100px;
+        }
+
+        .item-details td {
+            width: 100px;
+        }
+    }
 </style>

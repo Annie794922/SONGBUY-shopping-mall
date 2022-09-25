@@ -49,7 +49,18 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  // 跳轉路由之後所在位置回到頁面頂端
+  scrollBehavior(to,from,saveTop){
+    if (saveTop) {
+      return saveTop;
+    } else {
+      return {
+        top:0,
+        left:0
+      }
+    }
+  },
 })
 
 export default router

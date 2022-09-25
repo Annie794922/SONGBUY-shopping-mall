@@ -42,7 +42,7 @@
     @import "../assets/scss/main.scss";
 
     .product-box {
-        width: 200px;
+        width: 190px;
         border: solid 1px $gray;
         padding: 15px 0;
         margin: 10px 15px;
@@ -85,5 +85,18 @@
         color: $white;
         background-color: $darkPink;
         transition: 0.5s;
+    }
+
+    // 為了不讓RWD的lg和md尺寸之間部分畫面空白過多，稍微調整品項大小
+    @media screen and (max-width: 992px) and (min-width: 850px) {
+        .product-box {
+            width: 250px;
+            margin: 10px 5px;
+        }
+
+        .picture {
+            width: 155px;
+            height: 155px;
+        }
     }
 </style>
