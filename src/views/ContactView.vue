@@ -23,6 +23,19 @@
         </div>    
     </div>
 </template>
+<script>
+    export default {
+        methods: {
+            resetClickedButton() {
+                this.$store.commit('navbarButtonNo', 2);
+                return;
+            },
+        },
+        created() {
+            this.resetClickedButton();
+        }
+    }
+</script>
 <style scoped lang="scss">
     @import "../assets/scss/main.scss";
 

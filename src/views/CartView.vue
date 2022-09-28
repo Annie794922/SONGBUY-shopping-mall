@@ -58,6 +58,10 @@
             }
         },
         methods: {
+            resetClickedButton() {
+                this.$store.commit('navbarButtonNo', 4);
+                return;
+            },
             goToProductsList() {
                 this.$router.push('/products');
                 return;
@@ -85,6 +89,9 @@
                 return;
             }
         },
+        created() {
+            this.resetClickedButton();
+        }
     }
 </script>
 <style scoped lang="scss">

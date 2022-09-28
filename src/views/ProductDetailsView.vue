@@ -58,6 +58,10 @@
             }
         },
         methods: {
+            resetClickedButton() {
+                this.$store.commit('navbarButtonNo', 3);
+                return;
+            },
             backToProductsList() {
                 this.$router.push('/products');
                 return;
@@ -80,6 +84,9 @@
             selectedGood() {
                 return this.$store.state.selectedGood;
             }
+        },
+        created() {
+            this.resetClickedButton();
         }
     }
 </script>

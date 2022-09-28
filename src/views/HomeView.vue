@@ -129,6 +129,11 @@ export default {
     }
   },
   methods: {
+    // 透過vuex管理Navbar點選狀態，因此載入頁面時要初始化點選按鈕的值
+    resetClickedButton() {
+      this.$store.commit('navbarButtonNo', 1);
+      return;
+    },
     showDetails(boxNo) {
       const specialArray = this.clickedSpecialBox.indexOf(boxNo);
       if (specialArray === -1) {
@@ -148,6 +153,9 @@ export default {
         return;
       } else return;
     }
+  },
+  created() {
+    this.resetClickedButton();
   }
 }
 </script>

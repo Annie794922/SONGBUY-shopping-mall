@@ -52,6 +52,10 @@
             }
         },
         methods: {
+            resetClickedButton() {
+                this.$store.commit('navbarButtonNo', 3);
+                return;
+            },
             filterGoods(value) {
                 this.category = value;
                 const latestCategory = this.category;
@@ -62,6 +66,9 @@
                 // console.log(this.filteredGoods);
                 return;
             }
+        },
+        created() {
+            this.resetClickedButton();
         }
     }
 </script>
